@@ -3,11 +3,6 @@ body {
     margin: 0;
 }
 
-main {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
 .logo {
     font-size: 48px;
     color:aliceblue;
@@ -39,9 +34,22 @@ main {
     float: left;
 }
 
-footer {
-    margin: 20px;
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main h3 {
     text-align: center;
-    font-size: 14px;
+    color: white;
+}
+
+.pic_center {
+    float: left;
+}
+
+.pic_center img{
+    width: 600px;
+    
 }
 
