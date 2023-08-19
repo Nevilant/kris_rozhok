@@ -44,12 +44,37 @@ main h3 {
     color: white;
 }
 
-.pic_center {
-    float: left;
-}
-
-.pic_center img{
-    width: 600px;
+.main_pics {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0;
     
 }
 
+.main_img {
+    
+    padding: 5px;
+}
+
+#pic1 {
+    max-width: 100%;
+    height: auto;
+}
+
+#pic2 {
+    max-width: 100%;
+    height: auto;
+}
+
+#pic3 {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+.author_site {
+    display: flex;
+    justify-content: center;
+}
